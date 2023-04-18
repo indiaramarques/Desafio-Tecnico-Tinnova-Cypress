@@ -11,10 +11,14 @@ Caso ainda não possua instalado, basta instalar através do seguinte link: http
 
 Abra o PowerShell como administrador;
 Execute o seguinte comando: "npm install".
+
+
 4 - Instalação do Cypress:
 
 Com o projeto aberto no editor de código de sua preferência, abra o terminal e confira se está na pasta do projeto;
 Execute o comando: npm install cypress.
+
+
 5 - Executando o teste:
 
 Para rodar o teste, basta digitar o seguinte comando no terminal: npx cypress open;
