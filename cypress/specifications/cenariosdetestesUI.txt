@@ -1,0 +1,35 @@
+Suite 1 - Desafio nível 1
+
+    Cadastro 1:
+
+    
+    Cenário 2:
+
+
+Suite 2 - Desafio nível 2
+
+    Cenário 1:
+
+
+    Cenário 2:
+
+
+Suite 3 - Desafio nível 3
+
+    Cenário 1:
+
+
+    Cenário 2:
+ 
+
+Suite 4 - Desafio nível 3
+
+
+    Cenário 1:
+  
+
+    Cenário 2:
+
+
+    Cenário 3:
+   
