@@ -12,7 +12,8 @@ Funcionalidade: Suite 1 - Desafio nível 1
         Então clico em GUARDAR
 
     
-        Cenário: Visualizar usuário cadastrado
+    Cenário: Visualizar usuário cadastrado
+    
         Dado que estou na home page da tinnova
         Quando clico em Entrar
         E clico em Consultar
@@ -21,6 +22,7 @@ Funcionalidade: Suite 1 - Desafio nível 1
 Funcionalidade: Suite 2 - Desafio nível 2
 
     Cenário: Editar usuário cadastrado
+    
         Dado que estou na home page da tinnova
         Quando clico em Entrar
         E clico em Editar
@@ -33,6 +35,7 @@ Funcionalidade: Suite 2 - Desafio nível 2
 
 
     Cenário: Deletar usuário
+    
         Dado que estou na home page da tinnova
         Quando clico em Entrar
         E clico em Excluir
@@ -43,6 +46,7 @@ Funcionalidade: Suite 2 - Desafio nível 2
 Funcionalidade: Suite 3 - Desafio nível 3
 
     Cenário: Cadastrar usuário com os dados inválidos
+    
         Dado que estou na home page da tinnova
         Quando clico em Entrar
         E clico em Adicionar
@@ -55,6 +59,7 @@ Funcionalidade: Suite 3 - Desafio nível 3
         
 
     Cenário: Visualizar usuário cadastrado com os dados inválidos
+    
         Dado que estou na home page da tinnova
         Quando clico em Entrar
         E clico em Editar
@@ -68,8 +73,9 @@ Funcionalidade: Suite 3 - Desafio nível 3
 Funcionalidade: Suite 4 - Desafio nível 3
 
 
-    Cenário 1:  Deletar usuário - Clicar em "não" no modal 
-    Dado que estou na home page da tinnova
+    Cenário:  Deletar usuário - Clicar em "não" no modal 
+    
+        Dado que estou na home page da tinnova
         Quando clico em Entrar
         E clico em Excluir
         E aparece o modal para confirmar se desejo Excluir
@@ -77,11 +83,10 @@ Funcionalidade: Suite 4 - Desafio nível 3
         Então o usuário devo visualizar que a ação foi cancelada
   
 
-    Cenário 2: Sair do APP Tinnova
-    Dado que estou na home page da tinnova
+    Cenário: Sair do APP Tinnova
+    
+        Dado que estou na home page da tinnova
         Quando clico em Entrar
         E desejo sair do app
         E clico em Sair
         Então devo visualizar o app na página inicial 
-
-   
