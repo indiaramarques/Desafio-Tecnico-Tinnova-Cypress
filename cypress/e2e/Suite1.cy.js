@@ -20,7 +20,7 @@ describe('Suite 1 - Desafio nível 1', () => {
 
     it('Cenário 2 - Consulta de usuário', () => {
         cy.contains('Entrar').click()
-        cy.get(':nth-child(3) > [style="width: 15%; justify-content: flex-start;"] > :nth-child(2) > svg').click()
+        cy.get('#root > div > div.sc-jqUVSM.jkrDKT > div.sc-jSMfEi.iuhvyf > div:nth-child(1) > div:nth-child(5) > div:nth-child(3)').click()
         cy.get('.sc-bczRLJ').click()
     })
 })
