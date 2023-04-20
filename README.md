@@ -19,8 +19,6 @@ Para executar o teste, basta seguir as instruções abaixo:
 * Com o projeto aberto no editor de código de sua preferência, abra o terminal e confira se está na pasta do projeto;
 * Execute o comando: npm install cypress.
 * Execute o comando: npm i --save-dev cypress-localstorage-commands
-* Execute o comando: npm install --save-dev cypress cypress-cucumber-preprocessor
-
 
 5 - Executando o teste:
 
