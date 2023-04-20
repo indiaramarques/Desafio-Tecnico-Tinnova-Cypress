@@ -1,35 +1,87 @@
-Suite 1 - Desafio nível 1
+Funcionalidade: Suite 1 - Desafio nível 1
 
-    Cadastro 1:
+    Cenário: Cadastrar usuário
+
+        Dado que estou na home page da tinnova
+        Quando clico em Entrar
+        E clico em Adicionar
+        E preencho o campo Nome completo
+        E preencho o campo E-mail 
+        E preencho o campo CPF 
+        E preencho o campo Telefone 
+        Então clico em GUARDAR
 
     
-    Cenário 2:
+        Cenário: Visualizar usuário cadastrado
+        Dado que estou na home page da tinnova
+        Quando clico em Entrar
+        E clico em Consultar
+        Então devo visualizar as informações do usuário cadastrado
+
+Funcionalidade: Suite 2 - Desafio nível 2
+
+    Cenário: Editar usuário cadastrado
+        Dado que estou na home page da tinnova
+        Quando clico em Entrar
+        E clico em Editar
+        E preencho com dados diferentes o campo Nome Completo
+        E preencho com dados diferentes o campo E-mail 
+        E preencho com dados diferentes o campo CPF 
+        E preencho com dados diferentes o campo Telefone 
+        E clico clico em ATUALIZAR
+        Então devo visualizar os dados editados do usuário
 
 
-Suite 2 - Desafio nível 2
+    Cenário: Deletar usuário
+        Dado que estou na home page da tinnova
+        Quando clico em Entrar
+        E clico em Excluir
+        E aparece o modal para confirmar se desejo Excluir
+        E clico em "sim"
+        Então o usuário devo visualizar que o usuário foi excluido
 
-    Cenário 1:
+Funcionalidade: Suite 3 - Desafio nível 3
 
+    Cenário: Cadastrar usuário com os dados inválidos
+        Dado que estou na home page da tinnova
+        Quando clico em Entrar
+        E clico em Adicionar
+        E preencho com dados inválidos o campo Nome completo
+        E preencho com dados inválidos o campo E-mail 
+        E preencho com dados inválidos o campo CPF 
+        E preencho com dados inválidos o campo Telefone 
+        E clico em GUARDAR
+        Então devo visualizar o modal com a informação "Todos os campos devem ser preenchidos"
+        
 
-    Cenário 2:
-
-
-Suite 3 - Desafio nível 3
-
-    Cenário 1:
-
-
-    Cenário 2:
+    Cenário: Visualizar usuário cadastrado com os dados inválidos
+        Dado que estou na home page da tinnova
+        Quando clico em Entrar
+        E clico em Editar
+        E preencho com dados inválidos o campo Nome Completo
+        E preencho com dados inválidos o campo E-mail 
+        E preencho com dados inválidos o campo CPF 
+        E preencho com dados inválidos o campo Telefone 
+        E clico em ATUALIZAR
+        Então devo visualizar o modal com a informação "Todos os campos devem ser preenchidos"
  
+Funcionalidade: Suite 4 - Desafio nível 3
 
-Suite 4 - Desafio nível 3
 
-
-    Cenário 1:
+    Cenário 1:  Deletar usuário - Clicar em "não" no modal 
+    Dado que estou na home page da tinnova
+        Quando clico em Entrar
+        E clico em Excluir
+        E aparece o modal para confirmar se desejo Excluir
+        E clico em "não"
+        Então o usuário devo visualizar que a ação foi cancelada
   
 
-    Cenário 2:
+    Cenário 2: Sair do APP Tinnova
+    Dado que estou na home page da tinnova
+        Quando clico em Entrar
+        E desejo sair do app
+        E clico em Sair
+        Então devo visualizar o app na página inicial 
 
-
-    Cenário 3:
    
