@@ -1,4 +1,4 @@
-Sugestão de melhorias para o APP Tinnova:
+Sugestões de melhorias para o APP Tinnova:
 
 1 - Ao inserir dados inválidos, poderia ter uma mascará no campo avisando a necessidade de inserir os dados corretos.
 2 - Quando campos obrigátorios não forem preenchidos, os botões "Guardar" ou "Atualizar" não deve ser habilitado.
